@@ -131,6 +131,7 @@ SELECT  dm.dept_no,
         ce.first_name,
         dm.from_date,
         dm.to_date
+INTO manager_info
 FROM departments AS d
 INNER JOIN dept_manager AS dm
 ON (d.dept_no = dm.dept_no)
