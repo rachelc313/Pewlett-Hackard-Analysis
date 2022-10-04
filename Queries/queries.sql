@@ -121,7 +121,7 @@ WHERE (e.birth_date BETWEEN '1952-01-01' AND '1955-12-31')
     AND (e.hire_date BETWEEN '1985-01-01' AND '1988-12-31')
 	AND (de.to_date = '9999-01-01');
 	
-SELECT * FROM emp_info
+SELECT * FROM emp_info;
 
 -- List of managers per department
 SELECT  dm.dept_no,
@@ -136,7 +136,7 @@ FROM departments AS d
 INNER JOIN dept_manager AS dm
 ON (d.dept_no = dm.dept_no)
 INNER JOIN current_emp AS ce
-ON (dm.emp_no = ce.emp_no)
+ON (dm.emp_no = ce.emp_no);
 
 SELECT ce.emp_no,
 	ce.first_name,
@@ -147,11 +147,11 @@ FROM current_emp AS ce
 INNER JOIN dept_emp as de
 ON (ce.emp_no = de.emp_no)
 INNER JOIN departments as d
-ON (de.dept_no = d.dept_no)
+ON (de.dept_no = d.dept_no);
 
-SELECT * FROM retirement_info
+SELECT * FROM retirement_info;
 
-DROP TABLE retirement_info
+DROP TABLE retirement_info1;
 
 -- Update retirement info table with departments
 SELECT d.dept_name,
@@ -163,6 +163,22 @@ FROM departments AS d
 LEFT JOIN dept_emp AS de
 ON (d.dept_no = de.dept_no)
 RIGHT JOIN retirement_info1 AS ri
-ON (de.emp_no = ri.emp_no)
+ON (de.emp_no = ri.emp_no);
 
-SELECT * FROM retirement_info
+SELECT * FROM retirement_info;
+
+-- Query retirement info table for only sales
+SELECT emp_no,
+	first_name,
+	last_name,
+	dept_name
+FROM retirement_info
+WHERE (dept_name = 'Sales');
+
+-- Query retirement info table for Sales and Development
+SELECT emp_no,
+	first_name,
+	last_name,
+	dept_name
+FROM retirement_info
+WHERE dept_name IN('Sales', 'Development');
