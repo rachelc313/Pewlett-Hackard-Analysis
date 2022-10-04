@@ -137,3 +137,16 @@ INNER JOIN dept_manager AS dm
 ON (d.dept_no = dm.dept_no)
 INNER JOIN current_emp AS ce
 ON (dm.emp_no = ce.emp_no)
+
+SELECT ce.emp_no,
+	ce.first_name,
+	ce.last_name,
+	d.dept_name
+INTO dept_info
+FROM current_emp AS ce
+INNER JOIN dept_emp as de
+ON (ce.emp_no = de.emp_no)
+INNER JOIN departments as d
+ON (de.dept_no = d.dept_no)
+
+SELECT * FROM retirement_info
