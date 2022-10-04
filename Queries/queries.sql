@@ -110,7 +110,7 @@ SELECT e.emp_no,
 	e.last_name,
     e.gender,
     s.salary,
-    de.to_date
+    de.to_date,
 INTO emp_info
 FROM employees as e
 INNER JOIN salaries as s
@@ -148,5 +148,21 @@ INNER JOIN dept_emp as de
 ON (ce.emp_no = de.emp_no)
 INNER JOIN departments as d
 ON (de.dept_no = d.dept_no)
+
+SELECT * FROM retirement_info
+
+DROP TABLE retirement_info
+
+-- Update retirement info table with departments
+SELECT d.dept_name,
+	ri.emp_no,
+	ri.first_name,
+	ri.last_name
+INTO retirement_info
+FROM departments AS d
+LEFT JOIN dept_emp AS de
+ON (d.dept_no = de.dept_no)
+RIGHT JOIN retirement_info1 AS ri
+ON (de.emp_no = ri.emp_no)
 
 SELECT * FROM retirement_info
