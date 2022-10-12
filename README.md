@@ -42,4 +42,23 @@ Analyzing data provided by "Pewlett-Hackard:" "'Pewlett Hackard' is a large comp
  In total, 72,458 positions will need to be filled as the "silver tsunami" begins. The two largest titles that are losing employees are: Senior Engineer and Senior Staff. 
 
  There is a sufficient number of retirement-ready employees in each department available to remain part-time and mentor the upcoming generation of employees.
+
+ I created a new table to hold the number of employees that are not retiring soon and performed queries and analysis on that data.
+
+
+
+  - There are 167,666 current employees that are not retiring soon. 
+  - The breakdown of these employees by title is below:
+   -  Senior Engineer: 16,681
+    - Senior Staff: 57,096
+    - Engineer: 59,135
+    - Staff: 17,886
+    - Technique Leader: 8,447
+    - Assistant Engineer: 8,403
+    - Manager: 18
+
+
+I ran a query to filter out the employees that are eligible for the mentorship program and created a new table and provided the breakdowns below:
+
+ - 
  
