@@ -4,7 +4,7 @@ Analyzing data provided by "Pewlett-Hackard:" "'Pewlett Hackard' is a large comp
 1. Determine the number of upcoming retiring employees.
 2. Determine what positions will be coming available.
 3. For the mentorship program, how many employees are eligible to be mentored?
-4. How many positions per title are eligible to be mentored?
+4. How many employees per title are eligible to be mentored?
 
 ## Resources
  - Data Sources: departments.csv, dept_manager.csv, employees.csv, dept_emp.csv, salaries.csv, titles.csv
