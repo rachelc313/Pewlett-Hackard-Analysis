@@ -2,10 +2,9 @@
 ## Overview of the Analysis
 Analyzing data provided by "Pewlett-Hackard:" "'Pewlett Hackard' is a large company boasting several thousand employees, and it's been around for a long time. As baby boomers begin to retire at a rapid rate, Pewlett Hackard is looking toward the future in two ways. First, it's offering a retirement package for those who meet certain criteria. Second, it's starting to think about which positions will need to be filled in the near future." A mentorship program is being proposed in which retiring employees will be offered a part-time position with the goal of mentoring current employees born in 1965. The purpose of this analysis is the following:
 1. Determine the number of upcoming retiring employees.
-2. Determine the number of upcoming retiring employees per department.
 3. Determine what positions will be coming available.
-4. For the mentorship program, who is eligible to be mentored? 
-5. For the mentorship program, who is eligble to be a mentor?
+4. For the mentorship program, how many employees are eligible to be mentored?
+5. For the mentorship program, how many employees are employyes are eligible to be mentors?
 
 ## Resources
  - Data Sources: departments.csv, dept_manager.csv, employees.csv, dept_emp.csv, salaries.csv, titles.csv
@@ -13,9 +12,15 @@ Analyzing data provided by "Pewlett-Hackard:" "'Pewlett Hackard' is a large comp
 
  ## Results: 
  The analysis of the Pewlett-Hackard employee data show that:
- - There are 36,619 retiring upcoming retiring employees.
- - The breakdown of how many upcoming retiring empoloyees per department is below:
-![no_retirees_per_department](https://user-images.githubusercontent.com/111570965/195340031-75bc308d-3608-45ec-9f46-20b482f1bdc8.png)
+ - There are 72,458 retiring upcoming retiring employees.
+ - Below is the breakdow of each title and number of employees retiring:
+    - Senior Engineer: 25,916
+    - Senior Staff: 24,926
+    - Engineer: 9,285
+    - Staff: 7,636
+    - Technique Leader: 3,603
+    - Assistant Engineer: 1,090
+    - Manager: 2
 
  ## Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
 How many roles will need to be filled as the "silver tsunami" begins to make an impact?
