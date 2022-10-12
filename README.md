@@ -15,6 +15,7 @@ Analyzing data provided by "Pewlett-Hackard:" "'Pewlett Hackard' is a large comp
  The analysis of the Pewlett-Hackard employee data show that:
  - There are 36,619 retiring upcoming retiring employees.
  - The breakdown of how many upcoming retiring empoloyees per department is below:
+![no_retirees_per_department](https://user-images.githubusercontent.com/111570965/195340031-75bc308d-3608-45ec-9f46-20b482f1bdc8.png)
 
  ## Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
 How many roles will need to be filled as the "silver tsunami" begins to make an impact?
