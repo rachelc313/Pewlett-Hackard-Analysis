@@ -14,13 +14,13 @@ Analyzing data provided by "Pewlett-Hackard:" "'Pewlett Hackard' is a large comp
  The analysis of the Pewlett-Hackard employee data show that:
  - There are 72,458 retiring upcoming retiring employees.
  - Below is the breakdown of each title and number of employees retiring:
-    - Senior Engineer: 25,916
-    - Senior Staff: 24,926
-    - Engineer: 9,285
-    - Staff: 7,636
-    - Technique Leader: 3,603
-    - Assistant Engineer: 1,090
-    - Manager: 2
+      - Senior Engineer: 25,916
+      - Senior Staff: 24,926
+      - Engineer: 9,285
+      - Staff: 7,636
+      - Technique Leader: 3,603
+      - Assistant Engineer: 1,090
+      - Manager: 2
  - There are 1,549 employees eligible to be mentored.*
  - Below is the breakdown of each title and number of employees retiring:*
     - Senior Engineer: 201
@@ -48,8 +48,8 @@ Analyzing data provided by "Pewlett-Hackard:" "'Pewlett Hackard' is a large comp
 ![current_not_retiring_employees](https://user-images.githubusercontent.com/111570965/195443343-0208f6cc-c4f4-45b8-af18-2b3ae1b24407.png)
 
 
-  - There are 167,666 current employees that are not retiring soon. 
-  - The breakdown of these employees by title is below:
+- There are 167,666 current employees that are not retiring soon. 
+- The breakdown of these employees by title is below:
    - Senior Engineer: 16,681
     - Senior Staff: 57,096
     - Engineer: 59,135
