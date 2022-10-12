@@ -21,8 +21,8 @@ Analyzing data provided by "Pewlett-Hackard:" "'Pewlett Hackard' is a large comp
     - Technique Leader: 3,603
     - Assistant Engineer: 1,090
     - Manager: 2
- - There are 1,549 employees eligible to be mentored.
- - Below is the breakdown of each title and number of employees retiring:
+ - There are 1,549 employees eligible to be mentored.*
+ - Below is the breakdown of each title and number of employees retiring:*
     - Senior Engineer: 201
     - Senior Staff: 528
     - Engineer: 474
@@ -30,6 +30,12 @@ Analyzing data provided by "Pewlett-Hackard:" "'Pewlett Hackard' is a large comp
     - Technique Leader: 77
     - Assistant Engineer: 73
     - Manager: 0
+
+* To calculate these counts, I created an extra queries file in Postgres, the screenshots are below:
+
+![mentorship_eligibility_count](https://user-images.githubusercontent.com/111570965/195434905-a8d8b224-36b6-4e2d-a445-1157626ef8c7.png)
+![mentorship_eligibility_count](https://user-images.githubusercontent.com/111570965/195434916-a4f870f5-13a5-4437-b3a9-bd8dc04c6627.png)
+
 
  ## Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
 How many roles will need to be filled as the "silver tsunami" begins to make an impact?
