@@ -30,8 +30,8 @@ Analyzing data provided by "Pewlett-Hackard:" "'Pewlett Hackard' is a large comp
     - Technique Leader: 77
     - Assistant Engineer: 73
     - Manager: 0
-
-* To calculate these counts, I created an extra queries file in Postgres, the screenshots are below:
+ 
+   *To calculate these counts, I created an extra queries file in Postgres, the screenshots are below:
 
 ![mentorship_eligibility_count](https://user-images.githubusercontent.com/111570965/195434905-a8d8b224-36b6-4e2d-a445-1157626ef8c7.png)
 ![mentorship_eligibility_count](https://user-images.githubusercontent.com/111570965/195434916-a4f870f5-13a5-4437-b3a9-bd8dc04c6627.png)
