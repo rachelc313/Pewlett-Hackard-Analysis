@@ -45,17 +45,23 @@ Analyzing data provided by "Pewlett-Hackard:" "'Pewlett Hackard' is a large comp
 
  I created a new table to hold the number of employees that are not retiring soon and performed queries and analysis on that data.
 
+![current_not_retiring_employees](https://user-images.githubusercontent.com/111570965/195443343-0208f6cc-c4f4-45b8-af18-2b3ae1b24407.png)
 
 
   - There are 167,666 current employees that are not retiring soon. 
   - The breakdown of these employees by title is below:
    -  Senior Engineer: 16,681
-    - Senior Staff: 57,096
-    - Engineer: 59,135
-    - Staff: 17,886
-    - Technique Leader: 8,447
-    - Assistant Engineer: 8,403
-    - Manager: 18
+   - Senior Staff: 57,096
+   - Engineer: 59,135
+   - Staff: 17,886
+   - Technique Leader: 8,447
+   - Assistant Engineer: 8,403
+   - Manager: 18
+
+![total_cnre](https://user-images.githubusercontent.com/111570965/195443375-2b7ffb60-890b-4b37-848c-91f55ec3988e.png)
+
+![cnre_by_titles](https://user-images.githubusercontent.com/111570965/195443404-bb761eac-e9df-43ba-b18b-b9549227b3e4.png)
+
 
 
 I ran a query to filter out the employees that are eligible for the mentorship program and created a new table and provided the breakdowns below:
