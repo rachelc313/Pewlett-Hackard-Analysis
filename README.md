@@ -50,13 +50,13 @@ Analyzing data provided by "Pewlett-Hackard:" "'Pewlett Hackard' is a large comp
 
   - There are 167,666 current employees that are not retiring soon. 
   - The breakdown of these employees by title is below:
-   -  Senior Engineer: 16,681
-   - Senior Staff: 57,096
-   - Engineer: 59,135
-   - Staff: 17,886
-   - Technique Leader: 8,447
-   - Assistant Engineer: 8,403
-   - Manager: 18
+   - Senior Engineer: 16,681
+    - Senior Staff: 57,096
+    - Engineer: 59,135
+    - Staff: 17,886
+    - Technique Leader: 8,447
+    - Assistant Engineer: 8,403
+    - Manager: 18
 
 ![total_cnre](https://user-images.githubusercontent.com/111570965/195443375-2b7ffb60-890b-4b37-848c-91f55ec3988e.png)
 
