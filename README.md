@@ -66,6 +66,7 @@ Analyzing data provided by "Pewlett-Hackard:" "'Pewlett Hackard' is a large comp
 
 I ran queries to filter the data into a new table with the employees that have been employed over two years and removed those eligible for the mentorship program.
 
+![above_two_year_employees](https://user-images.githubusercontent.com/111570965/195585940-14f9f80a-3b01-4268-89f9-ff32df1ef544.png)
 
 
 - There are 166, 117 current employees that have been with the company for more than two years and are not eligible for the mentorship program. 
@@ -78,3 +79,6 @@ I ran queries to filter the data into a new table with the employees that have b
     - Assistant Engineer: 8,325
     - Manager: 18
  
+![total_atye](https://user-images.githubusercontent.com/111570965/195585964-b53c6030-6b84-4d20-a2d8-707c18a5f487.png)
+
+![atye_by_titles](https://user-images.githubusercontent.com/111570965/195585993-9b502ed4-9a84-4d96-8dc5-1b635b2097dc.png)
