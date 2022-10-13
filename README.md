@@ -22,7 +22,7 @@ Analyzing data provided by "Pewlett-Hackard:" "'Pewlett Hackard' is a large comp
       - Assistant Engineer: 1,090
       - Manager: 2
  - There are 1,549 employees eligible to be mentored (Born between 1/1/1965 and 12/31/1965).*
- - Below is the breakdown of each title and number of employees retiring:*
+ - Below is the breakdown of each title and number of employees eligible to be mentored:*
     - Senior Engineer: 201
     - Senior Staff: 528
     - Engineer: 474
