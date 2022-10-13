@@ -30,3 +30,21 @@ SELECT COUNT (emp_no),
 	FROM current_not_retiring_employees
 	GROUP BY title;
 
+SELECT * 
+INTO above_two_year_employees
+FROM current_not_retiring_employees AS cnre
+WHERE (cnre.from_date <= '2016-01-01');
+	
+DELETE
+FROM above_two_year_employees AS atye
+WHERE (atye.birth_date BETWEEN '1965-01-01' AND '1965-12-31');
+
+SELECT * FROM above_two_year_employees;
+
+SELECT COUNT (emp_no)
+	FROM above_two_year_employees;
+	
+SELECT COUNT (emp_no),
+	title
+	FROM above_two_year_employees
+	GROUP BY title;

@@ -21,7 +21,7 @@ Analyzing data provided by "Pewlett-Hackard:" "'Pewlett Hackard' is a large comp
       - Technique Leader: 3,603
       - Assistant Engineer: 1,090
       - Manager: 2
- - There are 1,549 employees eligible to be mentored.*
+ - There are 1,549 employees eligible to be mentored (Born between 1/1/1965 and 12/31/1965).*
  - Below is the breakdown of each title and number of employees retiring:*
     - Senior Engineer: 201
     - Senior Staff: 528
@@ -64,7 +64,17 @@ Analyzing data provided by "Pewlett-Hackard:" "'Pewlett Hackard' is a large comp
 
 
 
-I ran a query to filter out the employees that are eligible for the mentorship program and created a new table and provided the breakdowns below:
+I ran queries to filter the data into a new table with the employees that have been employed over two years and removed those eligible for the mentorship program.
 
- - 
+
+
+- There are 166, 117 current employees that have been with the company for more than two years and are not eligible for the mentorship program. 
+- The breakdown of these employees by title is below:
+    - Senior Engineer: 16,512
+    - Senior Staff: 56,527
+    - Engineer: 58,634
+    - Staff: 17,731
+    - Technique Leader: 8,370
+    - Assistant Engineer: 8,325
+    - Manager: 18
  
