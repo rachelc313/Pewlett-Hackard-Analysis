@@ -82,3 +82,13 @@ I ran queries to filter the data into a new table with the employees that have b
 ![total_atye](https://user-images.githubusercontent.com/111570965/195585964-b53c6030-6b84-4d20-a2d8-707c18a5f487.png)
 
 ![atye_by_titles](https://user-images.githubusercontent.com/111570965/195585993-9b502ed4-9a84-4d96-8dc5-1b635b2097dc.png)
+
+
+A comparison of the final numbers shows:
+
+The only position that will be left in a deficit is "Senior Engineer." There will be 9,404 positions available. Assuming that a "Senior Engineer" is promoted from "Engineer" positions, there are sufficient Engineers to that can be interviewed and possibly promoted. There are 49,349 "Engineer" positions left after the retirees leave and if all of the deficit 9,404 positions are filled there are still 39,945 "Engineers."
+
+This analysis shows that Pewlett Hackard is ready for the "Silver Tsunami." Hiring managers will need to be proactive in reviewing current employees interested in career advancement.
+
+
+
